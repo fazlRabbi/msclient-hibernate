@@ -1,0 +1,9 @@
+applications:
+- path: target/ROOT.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: msclients
+  host: msclients
+  disk_quota: 1024M
+  buildpack: java_buildpack
