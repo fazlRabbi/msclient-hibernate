@@ -4,7 +4,7 @@ Application for multiple sclerosis
 ## How to build and run project 
 You need an IDE, Tomcat and Maven installed.
 
-Open the project in your favorite IDE (IntelliJ is recommended).
+Open the project in your favorite IDE (Eclipse is recommended).
 
 Configure the mssservice application url in the Facade files found under src/no/hib/msapp/RESTCleint.
 For example, If the msservice is running in port 9030 the url should be: http://localhost:9030/api/preperation.
